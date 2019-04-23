@@ -1,0 +1,339 @@
+@import
+	url('https://fonts.googleapis.com/css?family=Roboto:300i,400,500,700');
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	font-family: Roboto;
+	font-size: 14px;
+}
+/* Css dang nhap  */
+.body-login {
+	background: linear-gradient(to bottom right, #3366cc 20%, #66ffff 100%);
+}
+
+.body-flex-login {
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+.container-login {
+	display: flex;
+	width: 820px;
+	height: 610px;
+	background: white;
+}
+
+.container-login-left {
+	width: 380px;
+	height: 100%;
+	background-image: url("../images/backgrounddangnhap.png");
+	/* container-login-left ------ container-login-right  */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 0px 16px;
+}
+
+.header-login {
+	padding-top: 32px;
+}
+
+#header-top-left {
+	text-align: center;
+	color: white;
+}
+
+.header-bottom-left {
+	margin-bottom: 64px;
+}
+
+.header-bottom-left p {
+	color: white;
+	padding-bottom: 15px;
+	margin-left: 10px;
+	font-weight: inherit;
+}
+
+.text-logo {
+	font-size: 48px;
+}
+#dang-ky , #dang-nhap {
+	cursor: pointer;
+}
+
+.text-logo-small {
+	font-size: 12px;
+	opacity: 0.7;
+}
+/*------------------------------  */
+.container-login-right {
+	padding: 0px 24px;
+	flex: 1; /* chiáº¿m toÃ n khoáº£ng trá»‘ng cÃ²n láº¡i */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#header-top-right {
+	font-size: 20px;
+	color: #B7B7B7;
+}
+
+.actived {
+	color: #F0210A;
+}
+
+
+.icon-email {
+	background: url("../images/ic_email.png") no-repeat scroll 16px 12px;
+	padding-left: 50px;
+	height: 38px;
+	width: 100%;
+	background-color: #D8D8D8;
+	border: 0;
+	margin-top: 8px;
+	font-size: 14px;
+}
+
+.icon-password {
+	background: url("../images/ic_lock.png") no-repeat scroll 16px 10px;
+	padding-left: 50px;
+	height: 38px;
+	width: 100%;
+	background-color: #D8D8D8;
+	border: 0;
+	margin-top: 8px;
+	font-size: 14px;
+}
+
+.meterial-primary-button {
+	color: white;
+	font-size: 14px;
+	margin-top: 24px;
+	height: 38px;
+	width: 100%;
+	background-color: #0083A0;
+	border: 0;
+	margin-top: 24px;
+	box-shadow: 0px 4px 7px 0px #191D1E;
+}
+
+.container-social-icon { /* canh trái dựa vào flex cha  */
+	align-self: flex-end;
+	margin-bottom: 16px;
+}
+/* ------------------------------End Dang Nhap ------------------------------------  */
+
+/* ------------------------------CSS Trang Chu ------------------------------------  */
+
+/* header */
+.header {
+	background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), /* Overlay */
+     url("../images/background_trangchu.jpg") no-repeat center center ;
+	height: 662px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.nav-none{
+	background: none !important;
+	border: none !important;
+}
+.nav-center{
+	margin-left: 20% !important;
+}
+.navbar-nav a{
+	color: white !important;
+}
+.active a{
+	color: #5BC0DE !important;
+	background:  none !important; 
+}
+.open > a{
+	color: #5BC0DE  !important;
+	background:  none !important; 
+}
+
+.dropdown-menu li a{
+	color: #5BC0DE  !important;
+	background:  none !important; 
+}
+.dropdown-menu li a:hover{
+	background:  #F7F9FA !important;
+}
+
+.event-header{
+	text-align: center;
+	margin-top: 215px;
+}
+.event-header > span {
+	color: white;
+}
+.event-header .text-last{
+	font-size: 50px;
+}
+
+			/* Responsive  */
+
+@media (min-width: 0px) and (max-width: 767px) {
+	.nav-center{
+		margin-left: 0% !important;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.nav-center{
+		margin-left: 0% !important;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	.nav-center{
+		margin-left: 8% !important;
+	}
+}
+
+/* End Header */
+/* Body  */
+.info{
+	text-align: center;
+	margin-top: 40px;
+	
+}
+.user{
+	height: 32px;
+	width: 32px;
+	border-radius: 100%;
+	background-color: chocolate;
+	text-align: center;
+	padding: 6px !important;
+	margin-top: 8px;
+
+}
+.user:hover{
+	background-color: chocolate !important;
+}
+.info img.icon-info{
+	height: 48px;
+	width: 48px;
+}
+.title-product{
+	text-align: center;
+	margin-top: 50px;
+	font-size: 32px;
+	font-weight: 700;
+	font-style: italic;
+}
+.product{
+	margin-top: 20px;
+	border: 1px solid gray; 
+	border-radius: 5px;
+	background-color: #FFF; 
+    box-shadow: 0 4px 17px 0 rgba(0,0,0,0.5);
+}
+.product img{
+	height: 256px;
+}
+.product-price{
+	font-size: 14px;
+	color: red;
+}
+.product-name{
+	font-size: 20px;
+	color: black;
+}
+/* end product */
+.footer{
+	margin-top: 40px;
+	background: black;
+	color: white;
+	padding: 32px; 
+	background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), /* Overlay */
+     url("../images/background_footer.jpg") no-repeat center center ;
+}
+.footer p{
+	text-align: center;
+}
+.title-footer{
+	font-size: 32px;
+}
+.detail-footer{
+	font-size: 14px;
+	text-align: left;
+}
+.input-text{
+	width: 100%;
+	background: #DEDEDE;
+	margin-bottom: 8px;
+	border: none;
+	height: 32px;
+	color: black;
+	border-radius: 3px;
+}
+.input-texterea{
+	width: 100%;
+	background: #DEDEDE;
+	margin-bottom: 8px;
+	color: black;
+	border-radius: 3px;
+}
+.btn-dongy{
+	width: 100%;
+}
+
+/* End Trang chu  */
+
+/* ------------------------------CSS Chitiet ------------------------------------  */
+.product-detail{
+    margin-top: 15px;
+}
+
+
+.list-group li{
+    border: none;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.list-group li:hover{
+    background: #f6f8f0;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.gio-hang{
+    text-align: center;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    border-radius: 100%;
+    background: red;
+    line-height: 24px;
+    margin-top: -30px;
+    margin-left: 15px;
+}
+/* End chitiet  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
