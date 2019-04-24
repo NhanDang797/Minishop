@@ -1,5 +1,5 @@
 # ***Minishop***
-## This project using technology are: Spring MVC , Hibernate Framwok , Ajax , Jquery ...
+## This project using technolog: Spring MVC , Hibernate Framwok , Ajax , Jquery ...
 ### Home Page
 ![a](https://scontent.fsgn4-1.fna.fbcdn.net/v/t1.15752-9/58802485_327089377992953_2506886318055751680_n.jpg?_nc_cat=105&_nc_oc=AQnWl28cYcL4KGaC5W9Y4XR6xFT57LHy5apaC74xiOgKCOwMVDmKIomvkVohbwcLlkw&_nc_ht=scontent.fsgn4-1.fna&oh=2769219de72c0278584cd6a5fd8b5be9&oe=5D2EA49B)
 ![a](https://scontent.fsgn3-1.fna.fbcdn.net/v/t1.15752-9/57852738_2206929742970120_5187727659232133120_n.jpg?_nc_cat=111&_nc_oc=AQnqCzCFzK9wEah5iyVWQqLq6Le1wEOGtst3mgRdT4ELaK6lcq5Gy0-CqMljBKjFnnk&_nc_ht=scontent.fsgn3-1.fna&oh=54c709e195a8cb871ad425a73630ad4a&oe=5D41CFEB)
